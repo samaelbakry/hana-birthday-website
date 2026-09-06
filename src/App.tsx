@@ -6,6 +6,8 @@ import IntroEnvelope from "./components/birthday/IntroEnvelope";
 import BirthdayHero from "./components/birthday/BirthdayHero";
 import BirthdayEnvelope from "./components/birthday/BirthdayEnvelope";
 import LetterModal from "./components/birthday/LetterModal";
+import BirthdayCountdownCard from "./components/birthday/BirthdayCountdownCard";
+import InteractiveWishJar from "./components/birthday/InteractiveWishJar";
 import FinalSurprise from "./components/birthday/FinalSurprise";
 import ParticleBackground from "./components/birthday/ParticleBackground";
 import { birthdayMessages, type BirthdayMessage } from "./data/birthdayMessages";
@@ -40,11 +42,11 @@ export default function App() {
   const cake = () => {
     setCakeClicked(true);
     confetti({
-      particleCount: 110,
-      spread: 75,
-      startVelocity: 32,
+      particleCount: 120,
+      spread: 80,
+      startVelocity: 35,
       origin: { y: 0.65 },
-      colors: ["#c084fc", "#a855f7", "#e9d5ff", "#fbbf24"],
+      colors: ["#c084fc", "#a855f7", "#e9d5ff", "#fbbf24", "#f472b6"],
     });
   };
 
@@ -70,7 +72,9 @@ export default function App() {
           >
             <BirthdayHero cakeClicked={cakeClicked} onCake={cake} />
 
-            <section className="w-full max-w-5xl px-4 py-20 flex flex-col items-center space-y-12">
+            <BirthdayCountdownCard />
+
+            <section className="w-full max-w-5xl px-4 py-16 flex flex-col items-center space-y-12">
               <motion.div
                 className="text-center space-y-3 max-w-md"
                 initial={{ opacity: 0, y: 25 }}
@@ -103,7 +107,7 @@ export default function App() {
                 ))}
               </div>
 
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-purple-200/80 shadow-sm text-xs font-semibold text-purple-700">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/90 border border-purple-200/80 shadow-sm text-xs font-semibold text-purple-700">
                 <span>{opened.length}/3 opened</span>
                 {opened.length === 3 && (
                   <span className="text-emerald-600 flex items-center gap-1">
@@ -113,9 +117,9 @@ export default function App() {
               </div>
             </section>
 
-            <FinalSurprise unlocked={opened.length === 3} />
+            <InteractiveWishJar />
 
-           
+            <FinalSurprise unlocked={opened.length === 3} />
           </motion.div>
         )}
       </AnimatePresence>
