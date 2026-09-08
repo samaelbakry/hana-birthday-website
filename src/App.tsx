@@ -11,6 +11,7 @@ import InteractiveWishJar from "./components/birthday/InteractiveWishJar";
 import FinalSurprise from "./components/birthday/FinalSurprise";
 import ParticleBackground from "./components/birthday/ParticleBackground";
 import { birthdayMessages, type BirthdayMessage } from "./data/birthdayMessages";
+import BirthdayMusic from "./components/birthday/BirthdayMusic";
 
 export default function App() {
   const [introOpen, setIntroOpen] = useState(false);
@@ -71,6 +72,8 @@ export default function App() {
             className="relative z-10 flex flex-col items-center w-full"
           >
             <BirthdayHero cakeClicked={cakeClicked} onCake={cake} />
+      <BirthdayMusic />
+
 
             <BirthdayCountdownCard />
 

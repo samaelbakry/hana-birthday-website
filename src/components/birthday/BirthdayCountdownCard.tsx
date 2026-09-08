@@ -10,50 +10,56 @@ import {
 } from "lucide-react";
 
 export default function BirthdayCountdownCard() {
-  const moments = [
-    {
-      title: "Professional Yapper",
-      value: "∞",
-      description: "Because somehow there's ALWAYS another story 😂",
-      icon: Laugh,
-      iconStyle: "text-pink-500 bg-pink-50",
-    },
-    {
-      title: "Late Night Energy",
-      value: "24/7",
-      description: "Sleep? Never heard of her. 🌙",
-      icon: Moon,
-      iconStyle: "text-indigo-500 bg-indigo-50",
-    },
-    {
-      title: "Bestie Level",
-      value: "MAX",
-      description: "Officially impossible to replace 💜",
-      icon: Heart,
-      iconStyle: "text-red-500 bg-red-50",
-    },
-    {
-      title: "Random Adventures",
-      value: "∞",
-      description: "The best memories were never planned ✨",
-      icon: Sparkles,
-      iconStyle: "text-purple-500 bg-purple-50",
-    },
-    {
-      title: "Coffee Breaks",
-      value: "Too Many",
-      description: "Because every problem deserves a coffee ☕",
-      icon: Coffee,
-      iconStyle: "text-amber-600 bg-amber-50",
-    },
-    {
-      title: "Memories Captured",
-      value: "1,000+",
-      description: "And somehow we still need more pictures 📸",
-      icon: Camera,
-      iconStyle: "text-violet-500 bg-violet-50",
-    },
-  ];
+const moments = [
+  {
+    title: "Yapping Champion",
+    value: "∞",
+    description:
+      "Give her one topic and somehow we're discussing our entire life story. 😂",
+    icon: Laugh,
+    iconStyle: "text-pink-500 bg-pink-50",
+  },
+  {
+    title: "2 AM Philosopher",
+    value: "24/7",
+    description:
+      "Some of the deepest conversations happen exactly when we should be sleeping. 🌙",
+    icon: Moon,
+    iconStyle: "text-indigo-500 bg-indigo-50",
+  },
+  {
+    title: "Certified Bestie",
+    value: "100%",
+    description:
+      "No application needed. No replacement available. Position permanently taken. 💜",
+    icon: Heart,
+    iconStyle: "text-red-500 bg-red-50",
+  },
+  {
+    title: "Chaos Generator",
+    value: "∞",
+    description:
+      "We don't need a plan. Somehow the chaos always finds us anyway. ✨",
+    icon: Sparkles,
+    iconStyle: "text-purple-500 bg-purple-50",
+  },
+  {
+    title: "Coffee Addict",
+    value: "Too Much",
+    description:
+      "Coffee first. Life decisions later. Somehow this system keeps working. ☕",
+    icon: Coffee,
+    iconStyle: "text-amber-600 bg-amber-50",
+  },
+  {
+    title: "Camera Roll Victim",
+    value: "1,000+",
+    description:
+      "For every normal picture, there are at least 47 completely unnecessary ones. 📸",
+    icon: Camera,
+    iconStyle: "text-violet-500 bg-violet-50",
+  },
+];
 
   return (
     <section className="relative px-4 py-20 overflow-hidden">

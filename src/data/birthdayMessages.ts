@@ -24,8 +24,8 @@ export const birthdayMessages: BirthdayMessage[] = [
     label: "Envelope 02",
     title: "Ahlom",
     subtitle: "A special note from Ahlom ✨",
-    message:"not yet",
-    image: "/images/hana-2.webp",
+    message:"Another year of you, another year of memories, random conversations, uncontrollable laughter, and moments that somehow become my favorite ones. I hope this year brings you all the happiness you deserve, beautiful surprises you never saw coming, and countless reasons to smile. Thank you for being the kind of person who makes ordinary days feel special just by being there. Happy birthday to my favorite human I’m so lucky to call you my best friend 💜💜💜",
+    image: "/images/env2.jpeg",
     caption: "You make life lighter ✨",
   },
   {
@@ -34,7 +34,7 @@ export const birthdayMessages: BirthdayMessage[] = [
     title: "Samasimo",
     subtitle: "A birthday wish from Samasimo 🥂",
     message:
-      "Happy 23rd Birthday, Hana. Having you in my life is such a genuine gift—your warmth, your laughter, and the way you bring light into every room you enter mean more to me than words can say. Thank you for being my constant, my confidante, and the absolute best friend anyone could ask for. I hope this year surrounds you with as much joy, peace, and beauty as you so effortlessly give to everyone around you. You deserve the absolute world today and always. 🤍",
+      "Happies of birthdays Hanoon ,Having you in my life is such a genuine gift—your warmth, your laughter, and the way you bring light into every room you enter mean more to me than words can say. Thank you for being my constant, my confidante, and the absolute best friend anyone could ask for. I hope this year surrounds you with as much joy, peace, and beauty as you so effortlessly give to everyone around you. You deserve the absolute world today and always 🤍",
     image: "/images/env3.jpeg",
     caption: "To many more chapters 🥂",
   },

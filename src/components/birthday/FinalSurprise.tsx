@@ -35,7 +35,7 @@ export default function FinalSurprise({ unlocked }: { unlocked: boolean }) {
 
         <div className="relative z-10 space-y-4 text-sm sm:text-base text-slate-600 leading-relaxed max-w-md">
           <p className="font-bold text-lg text-purple-700">
-            Happy Birthday, Hana.
+            Happy Birthday, Hanoon.
           </p>
           <p className="font-normal text-slate-600">
             Here's to more memories, more ridiculous conversations, more adventures, more laughter, and many more birthdays together.
