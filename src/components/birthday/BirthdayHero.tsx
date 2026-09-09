@@ -82,7 +82,6 @@ export default function BirthdayHero({ cakeClicked, onCake }: Props) {
               },
             }}
           >
-            {/* Pink tape / sticker */}
             <motion.div
               className="absolute -top-4 left-1/2 -translate-x-1/2 z-20"
               animate={{
@@ -197,7 +196,7 @@ export default function BirthdayHero({ cakeClicked, onCake }: Props) {
       </div>
 
       <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[18rem] md:text-[26rem] font-black text-purple-200/30 select-none pointer-events-none leading-none z-0">
-        23
+        24
       </span>
 
       <div className="absolute inset-0 pointer-events-none z-0 flex items-center justify-around opacity-70">
@@ -253,7 +252,7 @@ export default function BirthdayHero({ cakeClicked, onCake }: Props) {
         </div>
 
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-slate-800 leading-[1.15]">
-          Happy 23rd <br />
+          Happy 24th <br />
           <em className="font-serif italic font-normal bg-linear-to-r from-purple-600 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
             Birthday, Hana
           </em>
@@ -353,7 +352,6 @@ export default function BirthdayHero({ cakeClicked, onCake }: Props) {
                 </AnimatePresence>
               </div>
 
-              {/* Cake */}
               <div className="relative z-10 flex flex-col items-center">
                 <div className="relative flex items-center justify-center">
                   <div className="w-16 h-6 rounded-t-2xl rounded-b-md bg-linear-to-b from-pink-300 to-pink-400 shadow-md" />

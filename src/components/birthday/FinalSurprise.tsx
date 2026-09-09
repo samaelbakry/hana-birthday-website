@@ -14,7 +14,7 @@ export default function FinalSurprise({ unlocked }: { unlocked: boolean }) {
         className="relative w-full p-8 sm:p-12 rounded-3xl bg-linear-to-b from-white via-purple-50/40 to-slate-50/80 border border-purple-100 shadow-2xl shadow-purple-900/10 backdrop-blur-md flex flex-col items-center gap-6 overflow-hidden"
       >
         <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[14rem] sm:text-[18rem] font-black text-purple-200/20 select-none pointer-events-none leading-none z-0">
-          23
+          24
         </span>
 
         <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-64 h-64 bg-purple-200/30 rounded-full blur-3xl pointer-events-none" />
@@ -25,7 +25,7 @@ export default function FinalSurprise({ unlocked }: { unlocked: boolean }) {
         </div>
 
         <h2 className="relative z-10 text-3xl sm:text-5xl font-extrabold text-slate-800 tracking-tight leading-tight">
-          23 years of you. <br />
+          24 years of you. <br />
           <em className="font-serif italic font-normal bg-linear-to-r from-purple-600 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
             And somehow, the world became a little brighter.
           </em>
@@ -55,7 +55,7 @@ export default function FinalSurprise({ unlocked }: { unlocked: boolean }) {
         </div>
 
         <div className="relative z-10 text-xs font-semibold tracking-wider text-purple-500 uppercase pt-2">
-          23 looks beautiful on you ✨
+          24 looks beautiful on you ✨
         </div>
       </motion.div>
     </section>

@@ -10,7 +10,10 @@ import BirthdayCountdownCard from "./components/birthday/BirthdayCountdownCard";
 import InteractiveWishJar from "./components/birthday/InteractiveWishJar";
 import FinalSurprise from "./components/birthday/FinalSurprise";
 import ParticleBackground from "./components/birthday/ParticleBackground";
-import { birthdayMessages, type BirthdayMessage } from "./data/birthdayMessages";
+import {
+  birthdayMessages,
+  type BirthdayMessage,
+} from "./data/birthdayMessages";
 import BirthdayMusic from "./components/birthday/BirthdayMusic";
 
 export default function App() {
@@ -36,7 +39,9 @@ export default function App() {
   const openIntro = () => {
     setIntroOpen(true);
     setTimeout(() => {
-      document.getElementById("birthday")?.scrollIntoView({ behavior: "smooth" });
+      document
+        .getElementById("birthday")
+        ?.scrollIntoView({ behavior: "smooth" });
     }, 100);
   };
 
@@ -72,8 +77,7 @@ export default function App() {
             className="relative z-10 flex flex-col items-center w-full"
           >
             <BirthdayHero cakeClicked={cakeClicked} onCake={cake} />
-      <BirthdayMusic />
-
+            <BirthdayMusic />
 
             <BirthdayCountdownCard />
 

@@ -64,7 +64,7 @@ export default function IntroEnvelope({ onOpen }: Props) {
 
         <div className="absolute top-3 inset-x-4 h-24 bg-white rounded-lg shadow-inner flex flex-col items-center justify-center border border-purple-100 group-hover:-translate-y-4 transition-transform duration-300 ease-out">
           <span className="text-4xl font-serif font-black text-purple-600">
-            23
+            24
           </span>
           <span className="text-[10px] font-semibold tracking-widest text-purple-400 uppercase">
             For Hanoon

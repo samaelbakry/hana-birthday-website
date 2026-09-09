@@ -8,7 +8,6 @@ type Props = { item: BirthdayMessage | null; onClose: () => void };
 export default function LetterModal({ item, onClose }: Props) {
   const [imgError, setImgError] = useState(false);
 
-  // Reset image error state whenever a new letter is opened
   useEffect(() => {
     setImgError(false);
   }, [item]);

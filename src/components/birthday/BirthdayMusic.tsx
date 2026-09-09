@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Pause, Play, Music, Sparkles } from "lucide-react";
+import {  Play, Music, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function BirthdayMusicToggle() {
